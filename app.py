@@ -157,3 +157,6 @@ else:
 # 底部信息
 st.markdown("---")
 st.markdown("© 2026 电商AI美工工具箱 | 专为淘宝/拼多多/抖音小店主图设计")
+if __name__ == "__main__":
+    import os
+    os.system("streamlit run app.py --server.port $PORT --server.address 0.0.0.0")

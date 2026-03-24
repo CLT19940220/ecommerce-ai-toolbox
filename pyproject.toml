@@ -1,0 +1,13 @@
+[project]
+name = "ecommerce-ai-toolbox"
+version = "0.1.0"
+dependencies = [
+    "streamlit==1.32.2",
+    "requests",
+    "pillow",
+    "python-multipart"
+]
+
+[tool.vercel]
+devScript = "streamlit run app.py --server.port $PORT --server.address 0.0.0.0"
+buildScript = ""

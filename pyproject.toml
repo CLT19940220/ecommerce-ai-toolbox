@@ -1,0 +1,13 @@
+[project]
+name = "ecommerce-ai-toolbox"
+version = "0.1.0"
+dependencies = [
+  "streamlit>=1.32.0",
+  "python-dotenv>=1.0.0",
+  "requests>=2.31.0",
+  "pillow>=10.2.0",
+  "python-multipart>=0.0.9"
+]
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
